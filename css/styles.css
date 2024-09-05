@@ -330,7 +330,7 @@ h6.job {
   border: 1px 0px 0px 0px;
   opacity: 0px;
   align-items: center;
-  background-color: red;
+  
 }
 .section3 h2 {
   /* Our Portfolio */
@@ -352,12 +352,6 @@ h6.job {
 }
 .section3 .sec3-row1 {
     /* Row 1 */
-
-    position: relative;
-    width: 1128px;
-    height: 420px;
-    left: calc(50% - 1128px / 2);
-    top: 80px;
   
     display: flex;
     flex-direction: row;
@@ -368,12 +362,6 @@ h6.job {
 }
 .section3 .sec3-row2 {
     /* Row 2 */
-
-    position: relative;
-    width: 1128px;
-    height: 420px;
-    left: calc(50% - 1128px / 2);
-    top: 120px;
   
     display: flex;
     flex-direction: row;
@@ -382,3 +370,266 @@ h6.job {
     padding: 0px;
     gap: 20px;
 }
+.project-card {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  height: 420px;
+
+  display: flex;
+  flex-direction: column;
+}
+.project-card .image-portfolio {
+  /* Project Card 1 */
+
+  display: block;
+  width: 100%;
+  height: 360px;
+
+  /* WHITE
+  
+  Header background, team card background
+  */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.project-card:hover .overlay {
+  /* hover project card */
+
+  opacity: 1;
+}
+.text {
+  /* 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App */
+
+  position: absolute;
+  width: 296px;
+  height: 96px;
+  left: 32px;
+  top: 40px;
+
+  /* Body */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.port-card-content {
+  /* Card Content */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 16px 32px 16px;
+  gap: 8px;
+
+  width: 360px;
+  height: 120px;
+
+  /* CORNFLOWER */
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e7e9fc;
+}
+.project-card:hover .port-card-content {
+  /* WHITE
+
+Header background, team card background
+*/
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.port-card-content h3 {
+  /* Banking App */
+
+  width: 200px;
+  height: 24px;
+
+  /* Header 3 */
+
+  font-size: 20px;
+
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.port-card-content h6 {
+  /* App */
+  margin: -20px 0px 0px 0px;
+  width: 30px;
+  height: 24px;
+
+  /* Body */
+
+  font-weight: 400;
+
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+  color: #434455;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footer {
+  /* Footer */
+
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2988px;
+
+  /* Dark-bg */
+
+  /* NAVY BLUE */
+  background: #2e2f42;
+}
+.div-footer {
+  /* Text */
+
+  position: relative;
+  width: 264px;
+  height: 112px;
+  left: 156px;
+  top: 100px;
+}
+.footer-logo .a-logo {
+  /* Logo */
+  text-decoration: none;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: relative;
+  width: 115px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+}
+.footer-logo .a-logo .logo-web {
+  /* Web */
+
+  width: 44px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer-logo .a-logo .logo-stud {
+  /* Studio */
+
+  width: 71px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* CLOUD */
+  color: #f4f4fd;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footer-text {
+  /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
+
+  /* Body */
+
+  font-style: normal;
+  font-weight: 400;
+
+  /* or 150% */
+  letter-spacing: 0.02em;
+
+  /* CLOUD */
+  color: #f4f4fd;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* <uniquifier>: Use a unique and descriptive class name */
+
+.raleway-logo {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
