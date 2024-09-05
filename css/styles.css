@@ -290,7 +290,20 @@ nav li.menu-contacts {
   display: block;
   justify-content: center;
   flex-wrap: nowrap;
+
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
+.section2 li .div-team-card:hover {
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+
 li .card-content {
   height: 120px;
   position: relative;
@@ -322,20 +335,20 @@ h6.job {
 
   border-color: #e7e9fc;
 
-  width: 1128px;
-  height: 1000px;
+  max-width: 1128px;
+  width: 1122px;
+  height: 1082px;
   top: 1868px;
   left: 156px;
   gap: 0px;
   border: 1px 0px 0px 0px;
   opacity: 0px;
   align-items: center;
-  
 }
 .section3 h2 {
   /* Our Portfolio */
 
-  padding-top:  120px;
+  padding-top: 120px;
   padding-left: 500px;
   /* Header 2 */
 
@@ -351,24 +364,24 @@ h6.job {
   color: #2e2f42;
 }
 .section3 .sec3-row1 {
-    /* Row 1 */
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
+  /* Row 1 */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
 }
 .section3 .sec3-row2 {
-    /* Row 2 */
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
+  /* Row 2 */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
 }
 .project-card {
   position: relative;
@@ -480,7 +493,7 @@ Header background, team card background
 }
 .port-card-content h6 {
   /* App */
-  margin: -20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 30px;
   height: 24px;
 
@@ -519,8 +532,8 @@ Header background, team card background
   position: relative;
   width: 264px;
   height: 112px;
-  left: 156px;
-  top: 100px;
+  margin-top: 100px;
+  margin-left: 156px;
 }
 .footer-logo .a-logo {
   /* Logo */
@@ -594,7 +607,7 @@ Header background, team card background
 
   font-style: normal;
   font-weight: 400;
-
+  margin-top: 16px;
   /* or 150% */
   letter-spacing: 0.02em;
 
@@ -632,4 +645,3 @@ Header background, team card background
   font-weight: 700;
   font-style: normal;
 }
-
