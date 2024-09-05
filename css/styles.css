@@ -1,0 +1,192 @@
+body {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #434455;
+  size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  color: #434455;
+  font-style: normal;
+}
+.container {
+  width: 1440px;
+  max-width: 1440px;
+}
+header {
+  /* Top Line */
+
+  width: 1440px;
+  height: 72px;
+  border: 1px;
+  border-bottom: #e7e9fc;
+  background-color: #ffffff;
+}
+.div-header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 156px;
+    padding-top: 24px;
+    
+    
+}
+.menu-logo {
+  /* Logo */
+
+  /* Auto layout */
+  display: inline;
+  flex-direction: row;
+  
+  padding: 0;
+
+  flex-grow: 1;
+}
+.a-logo {
+  text-decoration: none;
+  float: inline-start;
+  width: 120px;
+  height: 21px;
+}
+span.logo-web {
+  /* Web */
+
+  width: 44px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: inline-block;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: #4d5ae5;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+span.logo-stud {
+  /* Studio */
+
+  width: 71px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: inline-block;
+  align-items: last center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.menu-nav {
+  /* Menu Nav */
+
+  /* Auto layout */
+  display: inline;
+  flex-direction: row;
+  flex-grow: 2;
+  align-items: center;
+  
+  padding: 0px;
+  gap: 40px;
+
+
+}
+.menu-nav ul {
+  display: inline;
+}
+
+.menu-nav li {
+  /* Studio */
+  /* Portfolio */
+  /* Contacts */
+
+  height: 24px;
+  display: inline-flex;
+  /* Body Medium */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+nav li.menu-studio {
+  width: 48px;
+}
+nav li.menu-portfolio {
+  width: 66px;
+}
+nav li.menu-contacts {
+  width: 67px;
+}
+.menu-nav li:hover a {
+  color: #404bbf;
+}
+.menu-nav li a:active {
+  color: #404bbf;
+}
+.link-studio {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.link-portfolio {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.link-contacts {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.address {
+    flex-grow: 1;
+}
+
