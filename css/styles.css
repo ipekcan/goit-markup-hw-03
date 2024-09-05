@@ -28,10 +28,13 @@ p {
 a {
   color: #434455;
   font-style: normal;
+  text-decoration: none;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
   max-width: 1440px;
+  align-items: center;
+  padding: 0 141px;
 }
 header {
   /* Top Line */
@@ -43,12 +46,10 @@ header {
   background-color: #ffffff;
 }
 .div-header {
-    display: flex;
-    flex-direction: row;
-    padding-left: 156px;
-    padding-top: 24px;
-    
-    
+  display: flex;
+  flex-direction: row;
+  padding-left: (156-141) px;
+  padding-top: 24px;
 }
 .menu-logo {
   /* Logo */
@@ -56,7 +57,7 @@ header {
   /* Auto layout */
   display: inline;
   flex-direction: row;
-  
+
   padding: 0;
 
   flex-grow: 1;
@@ -125,11 +126,9 @@ span.logo-stud {
   flex-direction: row;
   flex-grow: 2;
   align-items: center;
-  
+
   padding: 0px;
   gap: 40px;
-
-
 }
 .menu-nav ul {
   display: inline;
@@ -187,6 +186,199 @@ nav li.menu-contacts {
   color: #2e2f42;
 }
 .address {
-    flex-grow: 1;
+  flex-grow: 1;
+  display: flex;
+}
+.email {
+  flex-grow: 1;
+}
+.tel {
+  flex-grow: 1;
+}
+.hero-img-section {
+  width: 1158px;
+  height: 600px;
+  background-color: #2e2f42;
+
+  box-shadow: 0px 4px 4px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-img-section h1 {
+  color: #ffffff;
+
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  padding: 188px 300px;
+}
+.hero-img-section .btn-order-service {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+
+  /* IRIS */
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: 4px;
+
+  cursor: pointer;
+  color: #ffffff;
+
+  margin-top: -125px;
+}
+.btn-order-service:hover {
+  background-color: #404bbf;
+}
+.section1 {
+  width: 1158px;
+  height: 344px;
+}
+.section1 ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.sec1-col {
+  display: block;
+  margin: 120px 0;
+}
+.sec1-title {
+  color: #2e2f42;
+}
+.sec1-text {
+  color: #2e2f42;
+  width: 264px;
+  margin-top: 8px;
+}
+.section2 {
+  width: 1158px;
+  height: 732px;
+  background-color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+}
+.section2 h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  padding-top: 120px;
+  padding-left: auto;
+}
+.section2 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: nowrap;
+  gap: 18px;
 }
 
+.section2 ul > li .div-team-card {
+  height: 387px;
+  display: block;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+li .card-content {
+  height: 120px;
+  position: relative;
+  top: -6.5px;
+  background-color: #ffffff;
+  align-items: center;
+}
+li .card-content h3.name {
+  padding-top: 32px;
+  text-align: center;
+
+  color: #2e2f42;
+}
+h6.job {
+  padding-top: 8px;
+
+  color: #2e2f42;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.section3 {
+  border-width: 1px, 1px, 1px, 1px;
+
+  border-style: solid;
+
+  border-color: #e7e9fc;
+
+  width: 1128px;
+  height: 1000px;
+  top: 1868px;
+  left: 156px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  align-items: center;
+  background-color: red;
+}
+.section3 h2 {
+  /* Our Portfolio */
+
+  padding-top:  120px;
+  padding-left: 500px;
+  /* Header 2 */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: #2e2f42;
+}
+.section3 .sec3-row1 {
+    /* Row 1 */
+
+    position: relative;
+    width: 1128px;
+    height: 420px;
+    left: calc(50% - 1128px / 2);
+    top: 80px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+.section3 .sec3-row2 {
+    /* Row 2 */
+
+    position: relative;
+    width: 1128px;
+    height: 420px;
+    left: calc(50% - 1128px / 2);
+    top: 120px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
