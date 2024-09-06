@@ -34,7 +34,7 @@ a {
   width: 1158px;
   max-width: 1440px;
   align-items: center;
-  padding: 0 141px;
+  padding: 0 calc((1440-1158)/2)px;
 }
 header {
   /* Top Line */
@@ -48,7 +48,7 @@ header {
 .div-header {
   display: flex;
   flex-direction: row;
-  padding-left: (156-141) px;
+  
   padding-top: 24px;
 }
 .menu-logo {
@@ -59,14 +59,16 @@ header {
   flex-direction: row;
 
   padding: 0;
-
+  
   flex-grow: 1;
+  
 }
 .a-logo {
   text-decoration: none;
   float: inline-start;
-  width: 120px;
+  width: 270px;
   height: 21px;
+  padding-left: 141px;
 }
 span.logo-web {
   /* Web */
@@ -196,7 +198,7 @@ nav li.menu-contacts {
   flex-grow: 1;
 }
 .hero-img-section {
-  width: 1158px;
+  width: 1440px;
   height: 600px;
   background-color: #2e2f42;
 
@@ -242,6 +244,7 @@ nav li.menu-contacts {
 .section1 {
   width: 1158px;
   height: 344px;
+  padding-left: 141px;
 }
 .section1 ul {
   display: flex;
@@ -261,11 +264,12 @@ nav li.menu-contacts {
   margin-top: 8px;
 }
 .section2 {
-  width: 1158px;
+  width: 1440px;
   height: 732px;
   background-color: #f4f4fd;
   display: flex;
   flex-direction: column;
+  padding-left: 141px;
 }
 .section2 h2 {
   font-size: 36px;
@@ -335,8 +339,8 @@ h6.job {
 
   border-color: #e7e9fc;
 
-  max-width: 1128px;
-  width: 1122px;
+  max-width: 1440px;
+  width: 1440px;
   height: 1082px;
   top: 1868px;
   left: 156px;
@@ -344,6 +348,7 @@ h6.job {
   border: 1px 0px 0px 0px;
   opacity: 0px;
   align-items: center;
+  padding-left: 141px;
 }
 .section3 h2 {
   /* Our Portfolio */
@@ -519,7 +524,7 @@ Header background, team card background
   width: 1440px;
   height: 312px;
   left: 0px;
-  top: 2988px;
+  margin-top:120px;
 
   /* Dark-bg */
 
