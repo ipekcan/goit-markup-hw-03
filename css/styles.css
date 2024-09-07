@@ -48,7 +48,6 @@ header {
 .div-header {
   display: flex;
   flex-direction: row;
-  
   padding-top: 24px;
 }
 .menu-logo {
@@ -201,6 +200,7 @@ nav li.menu-contacts {
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
+  
 
   box-shadow: 0px 4px 4px 0px #00000026;
   display: flex;
@@ -241,19 +241,24 @@ nav li.menu-contacts {
 .btn-order-service:hover {
   background-color: #404bbf;
 }
-.section1 {
-  width: 1158px;
-  height: 344px;
-  padding-left: 141px;
+.section {
+  width: 1440px;
+  padding:120px 0;
+  display: flex;
+  flex-direction: column;
+
 }
-.section1 ul {
+.our-team {
+  background-color: #f4f4fd;
+}
+.section ul {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
 .sec1-col {
   display: block;
-  margin: 120px 0;
+
 }
 .sec1-title {
   color: #2e2f42;
@@ -263,25 +268,19 @@ nav li.menu-contacts {
   width: 264px;
   margin-top: 8px;
 }
-.section2 {
-  width: 1440px;
-  height: 732px;
-  background-color: #f4f4fd;
-  display: flex;
-  flex-direction: column;
-  padding-left: 141px;
-}
-.section2 h2 {
+
+.section h2 {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
-
-  padding-top: 120px;
+  color: #2e2f42;
+ 
   padding-left: auto;
 }
-.section2 ul {
+
+.section ul {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -289,7 +288,7 @@ nav li.menu-contacts {
   gap: 18px;
 }
 
-.section2 ul > li .div-team-card {
+.section ul > li .div-team-card {
   height: 387px;
   display: block;
   justify-content: center;
@@ -300,7 +299,7 @@ nav li.menu-contacts {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.section2 li .div-team-card:hover {
+.section li .div-team-card:hover {
   box-shadow: 0px 2px 1px 0px #2e2f4214;
 
   box-shadow: 0px 1px 1px 0px #2e2f4229;
@@ -332,7 +331,8 @@ h6.job {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.section3 {
+
+/* .section {
   border-width: 1px, 1px, 1px, 1px;
 
   border-style: solid;
@@ -348,27 +348,16 @@ h6.job {
   border: 1px 0px 0px 0px;
   opacity: 0px;
   align-items: center;
-  padding-left: 141px;
+  
+} */
+.our-portfolio {
+  border-width: 0 0 1px 0;
+
+  border-style: solid;
+
+  border-color: #e7e9fc;
 }
-.section3 h2 {
-  /* Our Portfolio */
-
-  padding-top: 120px;
-  padding-left: 500px;
-  /* Header 2 */
-
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  /* identical to box height, or 111% */
-
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-  color: #2e2f42;
-}
-.section3 .sec3-row1 {
+.section .sec3-row1 {
   /* Row 1 */
 
   display: flex;
@@ -378,7 +367,7 @@ h6.job {
   padding: 0px;
   gap: 20px;
 }
-.section3 .sec3-row2 {
+.section .sec3-row2 {
   /* Row 2 */
 
   display: flex;
@@ -524,7 +513,7 @@ Header background, team card background
   width: 1440px;
   height: 312px;
   left: 0px;
-  margin-top:120px;
+ 
 
   /* Dark-bg */
 
