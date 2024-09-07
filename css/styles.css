@@ -192,9 +192,11 @@ nav li.menu-contacts {
 }
 .email {
   flex-grow: 1;
+  font-weight: 400;
 }
 .tel {
   flex-grow: 1;
+  font-weight: 400;
 }
 .hero-img-section {
   width: 1440px;
@@ -267,6 +269,7 @@ nav li.menu-contacts {
   color: #2e2f42;
   width: 264px;
   margin-top: 8px;
+  font-weight: 400;
 }
 
 .section h2 {
